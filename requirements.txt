@@ -1,0 +1,13 @@
+streamlit
+groq
+python-docx
+PyPDF2
+pymupdf
+pandas
+openpyxl
+python-pptx
+gtts
+streamlit-mic-recorder
+duckduckgo-search
+requests
+python-dotenv
