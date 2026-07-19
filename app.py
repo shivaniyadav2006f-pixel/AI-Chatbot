@@ -1,5 +1,4 @@
 import streamlit as st
-import ollama
 from datetime import datetime
 from file_processor import process_file
 import requests
@@ -10,7 +9,6 @@ from image_search import search_image
 from web_search import web_search
 from chatbot import chat
 from database import save_message, load_messages, clear_messages
-
 
 
 # Page Configuration
