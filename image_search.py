@@ -21,6 +21,9 @@ def search_image(query):
         params=params
     )
 
+    print("Status Code:", response.status_code)
+    print("Response:", response.text)
+
     data = response.json()
 
     if data.get("results"):
